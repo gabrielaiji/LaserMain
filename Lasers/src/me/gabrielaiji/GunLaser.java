@@ -1,7 +1,6 @@
 package me.gabrielaiji;
 
 import org.bukkit.Material;
-//import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
 import org.bukkit.entity.Arrow;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -45,10 +44,6 @@ public class GunLaser implements Listener{
 		
 		Entity entity = e.getEntity();
 		entity.remove();
-		
-		/*boolean setArrowsInBody(Player player) {
-			((CraftPlayer) player).getHandle().getDataWatcher().watch(9, (byte)0);
-		}*/
 	}
 	
 }
